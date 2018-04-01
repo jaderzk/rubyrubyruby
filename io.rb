@@ -12,3 +12,10 @@ print "Ingrese segundo número: "
 numero_dos=gets.chomp.to_i
 
 puts "El resultado de la suma es #{numero+numero_dos}"
+
+
+def sumar_dos_numeros (numero_uno, numero_dos)
+  numero_uno+numero_dos
+end	
+
+puts sumar_dos_numeros(3,2)
