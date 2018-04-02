@@ -28,7 +28,14 @@ for maraton in 0...22
    	puts "Prepárate porque apenas empezaste"
    elsif maraton==21
    	puts "Lo lograste, terminaste la maratón sano y salvo"
-  	
+
    end	
 end	
 
+#Usando el método loop
+i = 30
+loop do  
+  puts "Quedan #{i} días del mes de Abril"
+  i -= 1
+  break if i <= 0
+end
