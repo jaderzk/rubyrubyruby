@@ -49,3 +49,9 @@ loop do
   puts "Solo pares #{i}"
   break if i <= 0
 end
+
+
+
+#usando times iterator
+
+24.times{puts "La cantidad de horas del dia"}
