@@ -32,10 +32,20 @@ for maraton in 0...22
    end	
 end	
 
-#Usando el método loop
+#Usando el método loop y break
 i = 30
 loop do  
   puts "Quedan #{i} días del mes de Abril"
   i -= 1
+  break if i <= 0
+end
+
+
+#usando método loop y next
+i = 20
+loop do
+  i -= 1
+  next if i % 2 ==1
+  puts "Solo pares #{i}"
   break if i <= 0
 end
