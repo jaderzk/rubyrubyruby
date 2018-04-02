@@ -14,3 +14,30 @@ minutos_dia=60*24
 
 
 puts "La cantidad de minutos en #{dias} dias es #{minutos_dia*dias}"
+
+
+=begin
+Problema del tablero de ajedrez:
+si en la primera casilla ponemos un grano,
+y duplicamos la cantidad de granos en la siguiente,
+y así hasta rellenar el tablero,
+¿cuántos granos tendremos?
+=end
+ 
+
+granos=1
+casillas_ajedrez=64
+
+(1..casillas_ajedrez).each { |casilla|
+puts "En la casilla #{casilla} van #{granos} granos"
+granos*=2
+}
+
+
+
+granos = 1  
+64.times do |escaque|  
+puts "En el escaque #{escaque+1} hay #{granos}"
+granos *= 2  
+end
+
